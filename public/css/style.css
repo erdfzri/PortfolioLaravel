@@ -1,0 +1,452 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+}
+
+.container1 h2 {
+    margin-top: 200px;
+}
+
+.container2 {
+    font-style: oblique;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    font-family: "quicksand", sans-serif;
+}
+
+/* nav li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px 40px;
+}
+
+nav li:hover {
+    background-color: brown;
+    border-radius: 12px;
+    font-size: 20px;
+    transform: scale(1.05);
+}
+
+nav li a:hover {
+    color: white;
+} */
+
+/* Nah didie jien class css na anu bie ku aeng jien */
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+.menu-icon div {
+    width: 25px;
+    height: 3px;
+    background: linear-gradient(to right, #965c00, #e07a00); /* Gradien warna kuning ke oranye */
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #222; /* Warna latar belakang */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Bayangan halus */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+/* Efek bayangan pada menu item */
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #965c00; /* Warna cokelat ketika dihover bebas ganti ge gae */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Bayangan teks pada hover */
+}
+/* nepi ka die doang ajang, ngatur frontend na */
+
+/* Efek bayangan pada header */
+header {
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(to right, #222, #444); /* Gradien warna abu-abu gelap */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Bayangan ringan */
+}
+
+/* Efek bayangan pada logo */
+.logo {
+    font-weight: bold;
+    padding: 10px 40px;
+    font-style: italic;
+    font-size: 40px;
+    color: #fbfaf9; /* Warna bodas */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Bayangan teks */
+}
+
+/* Efek bayangan dan transparansi pada project section */
+.project {
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Bayangan lebih jelas */
+    background: rgba(255, 255, 255, 0.9); /* Transparan */
+    border-radius: 10px; /* Sudut bulat */
+    overflow: hidden;
+}
+
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* .about {
+    margin-bottom: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#about {
+    display: flex;
+    flex-direction: row;
+} */
+
+.about-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-content {
+    flex: 1 1 60%; /* Mengatur lebar konten "Ringkasan" */
+    max-width: 600px; /* Batasi lebar maksimum */
+}
+
+.about h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.about p {
+    font-size: 16px;
+    color: #666;
+}
+
+.logo img {
+    border-radius: 20px;
+    box-shadow: 6px 4px 4px 6px black;
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+
+.logo h2 {
+    font-size: large;
+    font-size: 40px;
+}
+
+.section1 {
+    background-color: dimgray;
+}
+
+.data {
+    height: 200px;
+}
+
+/* SKILLL */
+
+section h1 {
+    text-align: center;
+}
+
+/* Animasi scale pada skill container */
+.skill-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+    background-color: blueviolet;
+}
+
+.skill-container:hover {
+    transform: scale(1.02); /* Pemutaran saat dihover */
+}
+
+.html, .css, .js, .ruby, .phyton, .c {
+    flex: 0 0 calc(30% - 20px);
+    margin: 20px;
+    padding: 20px;
+    border: 5px solid #000;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+    /* border-radius: 50px 15px; */
+}
+
+/* Efek hover untuk menambahkan sedikit animasi eheheh */
+.html:hover, .css:hover, .js:hover, .ruby:hover, .phyton:hover, .c:hover {
+    transform: scale(1.05);
+}
+
+.skill-container h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.skill-container p {
+    font-size: 16px;
+    color: #000000;
+}
+
+/* KONTAKKK!!!!! */
+.text {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Efek bayangan dan transparansi pada contact container */
+.contact-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Bayangan lebih jelas */
+    opacity: 0.9; /* Transparan */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.contact-container {
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+    color: #000;
+}
+.text h2 {
+    margin-bottom: 20px;
+}
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.contact-item {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+.contact-item i {
+    margin-right: 8px;
+    font-size: 24px;
+}
+/* General styles for the sections */
+section {
+    padding: 6rem 0;
+    color: #e5e5e5;
+    width: 100%;
+    background: #222;
+}
+
+/* Container and padding adjustments */
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.px-5 {
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+}
+
+.p-5 {
+    padding: 3rem !important;
+}
+
+/* Grid alignment */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.gx-5 {
+    --bs-gutter-x: 3rem;
+}
+
+/* Column order and size */
+.col-lg-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.order-lg-1 {
+    order: 1;
+}
+
+.order-lg-2 {
+    order: 2;
+}
+
+/* Text and image styling */
+.display-4 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.rounded-circle {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+/* Responsive adjustments */
+@media (min-width: 992px) {
+    .col-lg-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    .order-lg-1 {
+        order: 1;
+    }
+
+    .order-lg-2 {
+        order: 2;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .col-lg-6 {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .order-lg-1,
+    .order-lg-2 {
+        order: 0;
+    }
+}
+
+
+/* Media queries for responsiveness (Mun ceuk urang mah iye query atau script ajang responsive)*/
+@media only screen and (max-width: 1080px) {
+    header {
+        padding: 10px 20px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        display: none;
+    }
+
+    nav ul.show {
+        display: flex;
+    }
+
+    nav li {
+        margin: 0;
+        padding: 10px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .skill-container {
+        flex-direction: column;
+    }
+
+    .html, .css, .js, .ruby, .phyton, .c {
+        flex: 1 1 100%;
+    }
+}
